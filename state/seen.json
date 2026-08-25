@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 8928",
+      "meta": "87 김도영 2026.08.14 사전공고 8935",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -843,7 +843,7 @@
     "first_seen": "2026-08-25",
     "last_seen": "2026-08-25",
     "snapshot": null,
-    "is_new": true
+    "is_new": false
   },
   "e150739229052334": {
     "org": "NICE그룹",
@@ -865,7 +865,7 @@
     "first_seen": "2026-08-25",
     "last_seen": "2026-08-25",
     "snapshot": null,
-    "is_new": true
+    "is_new": false
   },
   "a21eb88e62b12250": {
     "org": "삼일PwC",
@@ -887,6 +887,6 @@
     "first_seen": "2026-08-25",
     "last_seen": "2026-08-25",
     "snapshot": null,
-    "is_new": true
+    "is_new": false
   }
 }
