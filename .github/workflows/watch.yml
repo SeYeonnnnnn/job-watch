@@ -45,7 +45,9 @@ jobs:
             echo "변경 없음"
           else
             git commit -m "chore: 공고 갱신 $(date -u +%Y-%m-%d)"
-            git push
+            # 원격이 앞서 있으면 최신을 받아 그 위에 다시 얹는다
+            git pull --rebase --autostash origin main || true
+            git push || echo "push 실패 — 다음 실행에서 재시도"
           fi
 
       - uses: actions/upload-pages-artifact@v3
