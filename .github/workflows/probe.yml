@@ -1,0 +1,60 @@
+name: probe
+
+# 로컬에 파이썬이 없어도 설정 진단을 돌릴 수 있게 하는 수동 실행 워크플로.
+# Actions 탭 → probe → Run workflow → 명령 선택 → 로그에서 결과 확인.
+
+on:
+  workflow_dispatch:
+    inputs:
+      command:
+        description: "실행할 진단"
+        required: true
+        default: probe-alio
+        type: choice
+        options:
+          - probe-alio        # 잡알리오 API 원문 응답 확인
+          - probe-site        # 특정 사이트가 정적인지 SPA인지 판별
+          - probe-all-sites   # config.yaml 의 모든 사이트를 한 번에 판별
+          - dry-run           # 알림·저장 없이 전체 파이프라인 확인
+      site_id:
+        description: "probe-site 일 때만 사용 (예: kb_bank, nice_cra)"
+        required: false
+        default: kb_bank
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: 진단 실행
+        env:
+          ALIO_SERVICE_KEY: ${{ secrets.ALIO_SERVICE_KEY }}
+        run: |
+          case "${{ inputs.command }}" in
+            probe-alio)
+              python watch.py probe-alio
+              ;;
+            probe-site)
+              python watch.py probe-site "${{ inputs.site_id }}"
+              ;;
+            probe-all-sites)
+              python - <<'PY'
+          import yaml, subprocess, sys
+          cfg = yaml.safe_load(open("config.yaml", encoding="utf-8"))
+          for site in cfg.get("sites", []):
+              print("=" * 60)
+              subprocess.run([sys.executable, "watch.py", "probe-site", site["id"]])
+          PY
+              ;;
+            dry-run)
+              python watch.py run --dry-run
+              ;;
+          esac

@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>채용 감시 보드</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+  :root {
+    --paper:#E7EBF0; --ink:#131A24; --ink-soft:#59667A; --line:#C3CCD8;
+    --deep:#1B3A6B; --alert:#A82A52; --calm:#3D7A6B; --card:#F6F8FA;
+    --mono: ui-monospace, "SFMono-Regular", "JetBrains Mono", Menlo, monospace;
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:"Pretendard Variable", Pretendard, system-ui, sans-serif;
+    line-height:1.5;
+  }
+  .wrap { max-width:900px; margin:0 auto; padding:32px 20px 80px; }
+
+  header { border-bottom:2px solid var(--ink); padding-bottom:18px; margin-bottom:28px; }
+  h1 {
+    font-size:clamp(26px,5vw,38px); margin:0 0 4px; letter-spacing:-0.03em;
+    font-weight:800;
+  }
+  .sub { color:var(--ink-soft); font-size:13px; font-family:var(--mono); }
+  .tally { display:flex; gap:28px; margin-top:18px; }
+  .tally div { display:flex; flex-direction:column; }
+  .tally b { font-size:28px; font-family:var(--mono); font-weight:600; letter-spacing:-0.02em; }
+  .tally span { font-size:11px; color:var(--ink-soft); letter-spacing:0.08em; }
+  .tally .hot b { color:var(--alert); }
+
+  .tier { margin-bottom:34px; }
+  .tier h2 {
+    display:flex; align-items:baseline; gap:10px;
+    font-size:13px; letter-spacing:0.14em; margin:0 0 10px;
+    text-transform:uppercase; color:var(--ink-soft);
+  }
+  .tier-mark {
+    background:var(--ink); color:var(--paper); padding:3px 9px;
+    font-size:12px; letter-spacing:0.1em; border-radius:2px;
+  }
+  .t3 .tier-mark { background:var(--alert); }
+  .t2 .tier-mark { background:var(--deep); }
+  .t1 .tier-mark { background:var(--ink-soft); }
+  .count { font-family:var(--mono); }
+
+  .rows { list-style:none; margin:0; padding:0; }
+  .row {
+    position:relative; display:grid;
+    grid-template-columns:64px 1fr auto; gap:14px; align-items:start;
+    background:var(--card); border:1px solid var(--line);
+    border-radius:3px; padding:14px 16px 14px 22px; margin-bottom:8px;
+  }
+  /* 마감 레일 — 남은 기간 비율만큼 채워진다 */
+  .rail {
+    position:absolute; left:0; top:0; bottom:0; width:6px;
+    background:linear-gradient(to top,
+      var(--calm) calc(var(--fill) * 100%), var(--line) 0);
+  }
+  .row.urgent .rail {
+    background:linear-gradient(to top,
+      var(--alert) calc(var(--fill) * 100%), var(--line) 0);
+  }
+  .row.closed { opacity:0.45; }
+  .row.closed .rail { background:var(--line); }
+
+  .dday { display:flex; flex-direction:column; padding-top:2px; }
+  .dday-main { font-family:var(--mono); font-size:15px; font-weight:600; letter-spacing:-0.02em; }
+  .dday-sub { font-size:9.5px; color:var(--ink-soft); margin-top:1px; letter-spacing:-0.01em; }
+  .row.urgent .dday-main { color:var(--alert); }
+  .row.nodate .dday-main { font-size:12px; color:var(--ink-soft); font-weight:500; }
+
+  .meta { display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin-bottom:3px; }
+  .org { font-weight:700; font-size:14px; }
+  .group { font-size:11px; color:var(--ink-soft); }
+  .new {
+    font-size:10px; font-family:var(--mono); letter-spacing:0.1em;
+    background:var(--deep); color:#fff; padding:1px 5px; border-radius:2px;
+  }
+  .title {
+    display:block; color:var(--ink); text-decoration:none;
+    font-size:15px; font-weight:500; margin-bottom:5px;
+  }
+  .title:hover { text-decoration:underline; text-underline-offset:3px; }
+  .why { font-size:12px; color:var(--ink-soft); }
+  .why.board { color:var(--ink); font-family:var(--mono); font-size:11.5px; }
+  .why.sub { font-size:11px; margin-top:2px; opacity:0.75; }
+  .status {
+    display:inline-block; font-size:10px; font-weight:700; letter-spacing:0.06em;
+    background:var(--deep); color:#fff; padding:1px 6px; border-radius:2px;
+    margin-right:6px; font-family:inherit;
+  }
+  .chips { margin-top:6px; display:flex; gap:5px; flex-wrap:wrap; }
+  .chip {
+    font-size:11px; font-family:var(--mono); color:var(--deep);
+    border:1px solid var(--line); border-radius:2px; padding:1px 6px;
+  }
+  .chip.fallback { color:var(--alert); border-color:var(--alert); }
+  .dates {
+    font-family:var(--mono); font-size:11px; color:var(--ink-soft);
+    white-space:nowrap; padding-top:4px; text-align:right;
+  }
+  .dates .lbl { font-size:9px; letter-spacing:0.08em; margin-right:5px; opacity:0.7; }
+
+  .empty p { color:var(--ink-soft); }
+  .hint { font-size:12px; }
+  footer {
+    margin-top:40px; padding-top:14px; border-top:1px solid var(--line);
+    font-size:11px; color:var(--ink-soft); font-family:var(--mono);
+  }
+  a:focus-visible, .title:focus-visible { outline:2px solid var(--deep); outline-offset:3px; }
+
+  @media (max-width:600px) {
+    .row { grid-template-columns:52px 1fr; }
+    .dates { grid-column:1 / -1; padding-top:8px; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>채용 감시 보드</h1>
+      <div class="sub">잡알리오 · 신용평가사 · 시중은행 · 보증기관 &nbsp;|&nbsp; 갱신 2026-08-25 21:55</div>
+      <div class="tally">
+        <div><b>22</b><span>접수 중</span></div>
+        <div class="hot"><b>0</b><span>D-7 이내</span></div>
+        <div><b>22</b><span>날짜 미상</span></div>
+      </div>
+    </header>
+    
+      <section class="tier t3">
+        <h2><span class="tier-mark">최우선</span><span class="count">4</span></h2>
+        <ul class="rows">
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">—</span>
+            <span class="dday-sub">날짜 미상</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">NICE그룹</span>
+              <span class="group">신용평가사</span>
+              <span class="new">NEW</span>
+            </div>
+            <a class="title" href="https://nice.career.greetinghr.com/ko/o/217680"
+               target="_blank" rel="noopener">[NICE인베스팅] 데이터 엔지니어(Back &amp; Pipeline) 채용(경력) IT 데이터 엔지니어 경력 5년 이상 정규직 NICE인베스팅 2026. 08. 31, 14:59까지 D -6</a>
+            <div class="why">NICE그룹 · 희망직무 키워드 데이터</div>
+            <div class="chips"><span class="chip">데이터</span><span class="chip">IT</span><span class="chip">정규직</span></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>미상</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li>
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">25.12.31</span>
+            <span class="dday-sub">237일 전 등록</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">신용보증기금</span>
+              <span class="group">보증기관</span>
+              
+            </div>
+            <a class="title" href="https://www.kodit.or.kr/kodit/na/ntt/selectNttInfo.do?mi=2518&amp;bbsId=407&amp;nttSn=4131207"
+               target="_blank" rel="noopener">2026년도 신입직원 채용 필기전형 시험범위 사전공개</a>
+            <div class="why board"><span class="status">사전공고</span>78 이동훈 2025.12.31 사전공고 13560</div><div class="why sub">신용보증기금 공채 공고 (신입직원, 신입직)</div>
+            <div class="chips"><span class="chip">신입직원</span><span class="chip">신입직</span><span class="chip">신입</span></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>25.12.31</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li>
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">26.03.16</span>
+            <span class="dday-sub">162일 전 등록</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">신용보증기금</span>
+              <span class="group">보증기관</span>
+              
+            </div>
+            <a class="title" href="https://www.kodit.or.kr/kodit/na/ntt/selectNttInfo.do?mi=2518&amp;bbsId=407&amp;nttSn=4383792"
+               target="_blank" rel="noopener">2026년도 상반기 신용보증기금 신입직원 채용 사전공고</a>
+            <div class="why board"><span class="status">사전공고</span>81 김도영 2026.03.16 사전공고 15466</div><div class="why sub">신용보증기금 공채 공고 (신입직원, 신입직)</div>
+            <div class="chips"><span class="chip">신입직원</span><span class="chip">신입직</span><span class="chip">신입</span></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>26.03.16</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li>
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">26.08.14</span>
+            <span class="dday-sub">11일 전 등록</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">신용보증기금</span>
+              <span class="group">보증기관</span>
+              
+            </div>
+            <a class="title" href="https://www.kodit.or.kr/kodit/na/ntt/selectNttInfo.do?mi=2518&amp;bbsId=407&amp;nttSn=5054726"
+               target="_blank" rel="noopener">2026년도 하반기 신용보증기금 신입직원 채용 사전공고</a>
+            <div class="why board"><span class="status">사전공고</span>87 김도영 2026.08.14 사전공고 8923</div><div class="why sub">신용보증기금 공채 공고 (신입직원, 신입직)</div>
+            <div class="chips"><span class="chip">신입직원</span><span class="chip">신입직</span><span class="chip">신입</span></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>26.08.14</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li></ul>
+      </section>
+      <section class="tier t2">
+        <h2><span class="tier-mark">관심</span><span class="count">12</span></h2>
+        <ul class="rows">
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">—</span>
+            <span class="dday-sub">날짜 미상</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">KDB산업은행</span>
+              <span class="group">국책은행</span>
+              
+            </div>
+            <a class="title" href="https://kdb.incruit.com/hire/viewhire.asp?projectid=124"
+               target="_blank" rel="noopener">한국산업은행 2026년 일반직B(보훈) 신입행원 채용</a>
+            <div class="why board">번호 제목 1 한국산업은행 2026년 2차 청년인턴 채용 2 3 한국산업은행 2026년 일반직B(특성화고) 신입행원 채용</div><div class="why sub">KDB산업은행 공채 공고 (신입행원, 신입)</div>
+            <div class="chips"><span class="chip">신입행원</span><span class="chip">신입</span></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>미상</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li>
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">—</span>
+            <span class="dday-sub">날짜 미상</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">KDB산업은행</span>
+              <span class="group">국책은행</span>
+              
+            </div>
+            <a class="title" href="https://kdb.incruit.com/hire/viewhire.asp?projectid=123"
+               target="_blank" rel="noopener">한국산업은행 2026년 일반직B(특성화고) 신입행원 채용</a>
+            <div class="why board">번호 제목 1 한국산업은행 2026년 2차 청년인턴 채용 2 한국산업은행 2026년 일반직B(보훈) 신입행원 채용 3</div><div class="why sub">KDB산업은행 공채 공고 (신입행원, 신입)</div>
+            <div class="chips"><span class="chip">신입행원</span><span class="chip">신입</span></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>미상</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li>
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">—</span>
+            <span class="dday-sub">날짜 미상</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">NICE그룹</span>
+              <span class="group">신용평가사</span>
+              <span class="new">NEW</span>
+            </div>
+            <a class="title" href="https://nice.career.greetinghr.com/ko/o/233072"
+               target="_blank" rel="noopener">[NICE피앤아이] 2026년 3분기 공인회계사 공개채용 (수습회계사 지원 가능) NICE피앤아이 NICE피앤아이 평가 공인회계사 / 대체투자상품평가 경력 무관 정규직 NICE 2026. 08. 30, 14:59까지 D -5</a>
+            <div class="why">NICE그룹 공채 공고 (공개채용)</div>
+            <div class="chips"><span class="chip">공개채용</span><span class="chip">정규직</span></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>미상</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li>
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">—</span>
+            <span class="dday-sub">날짜 미상</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">기술보증기금</span>
+              <span class="group">보증기관</span>
+              
+            </div>
+            <a class="title" href="https://kibo.incruit.com/"
+               target="_blank" rel="noopener">[페이지 변경 감지] 기술보증기금 채용 페이지 확인 필요</a>
+            <div class="why">기술보증기금 공고 (직무 키워드 미검출 — 부문 개편 가능성)</div>
+            <div class="chips"></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>미상</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li>
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">—</span>
+            <span class="dday-sub">날짜 미상</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">신용보증기금</span>
+              <span class="group">보증기관</span>
+              
+            </div>
+            <a class="title" href="https://www.kodit.or.kr/kodit/na/ntt/selectNttList.do?mi=2808&amp;bbsId=421"
+               target="_blank" rel="noopener">친인척 채용정보 공개</a>
+            <div class="why board">사전정보공표 사전정보모니터링 감사공개방</div><div class="why sub">신용보증기금 공고 (직무 키워드 미검출 — 부문 개편 가능성)</div>
+            <div class="chips"></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>미상</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li>
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">—</span>
+            <span class="dday-sub">날짜 미상</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">우리은행 공채</span>
+              <span class="group">시중은행</span>
+              
+            </div>
+            <a class="title" href="https://jrs.jobkorea.co.kr/wooribank"
+               target="_blank" rel="noopener">[페이지 변경 감지] 우리은행 공채 채용 페이지 확인 필요</a>
+            <div class="why">우리은행 공채 공채 공고 (공채)</div>
+            <div class="chips"><span class="chip">공채</span></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>미상</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li>
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">—</span>
+            <span class="dday-sub">날짜 미상</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">KB국민카드</span>
+              <span class="group">카드사</span>
+              
+            </div>
+            <a class="title" href="https://kbcard.incruit.com/"
+               target="_blank" rel="noopener">[페이지 변경 감지] KB국민카드 채용 페이지 확인 필요</a>
+            <div class="why">감시 페이지 내용이 바뀜</div>
+            <div class="chips"></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>미상</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li>
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">—</span>
+            <span class="dday-sub">날짜 미상</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">롯데그룹(롯데카드 포함)</span>
+              <span class="group">카드사</span>
+              
+            </div>
+            <a class="title" href="https://recruit.lotte.co.kr/"
+               target="_blank" rel="noopener">[페이지 변경 감지] 롯데그룹(롯데카드 포함) 채용 페이지 확인 필요</a>
+            <div class="why">감시 페이지 내용이 바뀜</div>
+            <div class="chips"></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>미상</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li>
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">—</span>
+            <span class="dday-sub">날짜 미상</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">카카오뱅크</span>
+              <span class="group">인터넷은행</span>
+              
+            </div>
+            <a class="title" href="https://recruit.kakaobank.com/jobs"
+               target="_blank" rel="noopener">[페이지 변경 감지] 카카오뱅크 채용 페이지 확인 필요</a>
+            <div class="why">감시 페이지 내용이 바뀜</div>
+            <div class="chips"></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>미상</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li>
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">—</span>
+            <span class="dday-sub">날짜 미상</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">토스(비바리퍼블리카)</span>
+              <span class="group">인터넷은행</span>
+              
+            </div>
+            <a class="title" href="https://toss.im/career"
+               target="_blank" rel="noopener">[페이지 변경 감지] 토스(비바리퍼블리카) 채용 페이지 확인 필요</a>
+            <div class="why">감시 페이지 내용이 바뀜</div>
+            <div class="chips"></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>미상</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li>
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">—</span>
+            <span class="dday-sub">날짜 미상</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">하나은행</span>
+              <span class="group">시중은행</span>
+              
+            </div>
+            <a class="title" href="https://hanabank.incruit.com/"
+               target="_blank" rel="noopener">[페이지 변경 감지] 하나은행 채용 페이지 확인 필요</a>
+            <div class="why">감시 페이지 내용이 바뀜</div>
+            <div class="chips"></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>미상</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li>
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">26.07.09</span>
+            <span class="dday-sub">47일 전 등록</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">신용보증기금</span>
+              <span class="group">보증기관</span>
+              
+            </div>
+            <a class="title" href="https://www.kodit.or.kr/kodit/na/ntt/selectNttInfo.do?mi=2518&amp;bbsId=407&amp;nttSn=4922327"
+               target="_blank" rel="noopener">2026년도 육아휴직자 대체 기간제 근로자(비서) 채용 공고</a>
+            <div class="why board"><span class="status">진행중</span>86 한수정 2026.07.09 진행중 513</div><div class="why sub">신용보증기금 공고 (직무 키워드 미검출 — 부문 개편 가능성)</div>
+            <div class="chips"></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>26.07.09</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li></ul>
+      </section>
+      <section class="tier t1">
+        <h2><span class="tier-mark">참고</span><span class="count">6</span></h2>
+        <ul class="rows">
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">—</span>
+            <span class="dday-sub">날짜 미상</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">삼성커리어스(삼성카드 포함)</span>
+              <span class="group">카드사</span>
+              
+            </div>
+            <a class="title" href="https://www.samsungcareers.com/hr/"
+               target="_blank" rel="noopener">[직접 확인] 삼성커리어스(삼성카드 포함) 채용 페이지</a>
+            <div class="why">봇 차단 — 계열사 필터에서 삼성카드 확인</div>
+            <div class="chips"><span class="chip fallback">직접 확인</span></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>미상</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li>
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">—</span>
+            <span class="dday-sub">날짜 미상</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">삼일PwC</span>
+              <span class="group">회계법인</span>
+              <span class="new">NEW</span>
+            </div>
+            <a class="title" href="https://www.pwc.com/kr/ko/career/graduate-opportunities.html"
+               target="_blank" rel="noopener">[직접 확인] 삼일PwC 채용 페이지</a>
+            <div class="why">봇 차단(403) — 정기채용 일정은 직접 확인</div>
+            <div class="chips"><span class="chip fallback">직접 확인</span></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>미상</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li>
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">—</span>
+            <span class="dday-sub">날짜 미상</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">신한은행 디지털/ICT</span>
+              <span class="group">시중은행</span>
+              
+            </div>
+            <a class="title" href="https://shinhandigital.recruiter.co.kr/career/home"
+               target="_blank" rel="noopener">[직접 확인] 신한은행 디지털/ICT 채용 페이지</a>
+            <div class="why">recruiter.co.kr 계열 — robots 확인 필요, 직접 확인 권장</div>
+            <div class="chips"><span class="chip fallback">직접 확인</span></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>미상</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li>
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">—</span>
+            <span class="dday-sub">날짜 미상</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">우리카드</span>
+              <span class="group">카드사</span>
+              
+            </div>
+            <a class="title" href="https://pc.wooricard.com/dcpc/yh1/cid/cid06/empanc/H1CID202S00.do"
+               target="_blank" rel="noopener">[직접 확인] 우리카드 채용 페이지</a>
+            <div class="why">공고 목록이 JS 렌더 — 페이지에서 직접 확인</div>
+            <div class="chips"><span class="chip fallback">직접 확인</span></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>미상</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li>
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">—</span>
+            <span class="dday-sub">날짜 미상</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">케이뱅크</span>
+              <span class="group">인터넷은행</span>
+              
+            </div>
+            <a class="title" href="https://kbank.recruiter.co.kr/app/jobnotice/list"
+               target="_blank" rel="noopener">[직접 확인] 케이뱅크 채용 페이지</a>
+            <div class="why">robots.txt 로 크롤링 금지 — 직접 확인 또는 자소설닷컴 알림 사용</div>
+            <div class="chips"><span class="chip fallback">직접 확인</span></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>미상</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li>
+        <li class="row open nodate">
+          <div class="rail" style="--fill:0.000" aria-hidden="true"></div>
+          <div class="dday">
+            <span class="dday-main">—</span>
+            <span class="dday-sub">날짜 미상</span>
+          </div>
+          <div class="body">
+            <div class="meta">
+              <span class="org">현대카드·현대커머셜</span>
+              <span class="group">카드사</span>
+              
+            </div>
+            <a class="title" href="https://careerhyundai.recruiter.co.kr/career/home"
+               target="_blank" rel="noopener">[직접 확인] 현대카드·현대커머셜 채용 페이지</a>
+            <div class="why">recruiter.co.kr 계열 — robots 확인 필요, 직접 확인 권장</div>
+            <div class="chips"><span class="chip fallback">직접 확인</span></div>
+          </div>
+          <div class="dates">
+            <div><span class="lbl">등록</span>미상</div>
+            <div><span class="lbl">마감</span>미상</div>
+          </div>
+        </li></ul>
+      </section>
+    <footer>
+      마감일을 읽지 못한 공고는 등록일과 경과일을 대신 표시합니다. 직접 확인하세요.<br>
+      공식 채용 페이지와 공개 API만 수집합니다.
+    </footer>
+  </div>
+</body>
+</html>
