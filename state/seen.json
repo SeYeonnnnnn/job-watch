@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 9031",
+      "meta": "87 김도영 2026.08.14 사전공고 9354",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -35,7 +35,7 @@
     "posted": "20260316",
     "deadline": "",
     "extra": {
-      "meta": "81 김도영 2026.03.16 사전공고 15470",
+      "meta": "81 김도영 2026.03.16 사전공고 15475",
       "status": "사전공고",
       "post_id": "4383792"
     },
@@ -62,7 +62,7 @@
     "posted": "20251231",
     "deadline": "",
     "extra": {
-      "meta": "78 이동훈 2025.12.31 사전공고 13562",
+      "meta": "78 이동훈 2025.12.31 사전공고 13563",
       "status": "사전공고",
       "post_id": "4131207"
     },
@@ -540,7 +540,7 @@
     "posted": "20260709",
     "deadline": "",
     "extra": {
-      "meta": "86 한수정 2026.07.09 진행중 514",
+      "meta": "86 한수정 2026.07.09 진행중 517",
       "status": "진행중",
       "post_id": "4922327"
     },
@@ -563,8 +563,8 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "82a010dba016",
-      "text_length": 8767
+      "snapshot": "da39a3ee5e6b",
+      "text_length": 0
     },
     "id": "dea1e0e44929601e",
     "tier": 2,
@@ -575,8 +575,8 @@
     "reason": "우리은행 공채 공채 공고 (공채)",
     "first_seen": "2026-08-25",
     "last_seen": "2026-08-26",
-    "snapshot": "82a010dba016",
-    "is_new": false
+    "snapshot": "da39a3ee5e6b",
+    "is_new": true
   },
   "f09de7593ec0122f": {
     "org": "KB국민카드",
@@ -609,8 +609,8 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "cddc0fe1edcf",
-      "text_length": 7190
+      "snapshot": "2c51360753db",
+      "text_length": 7264
     },
     "id": "503c35809ab7119c",
     "tier": 2,
@@ -619,7 +619,7 @@
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
     "last_seen": "2026-08-26",
-    "snapshot": "cddc0fe1edcf",
+    "snapshot": "2c51360753db",
     "is_new": true
   },
   "11a2ea8ac51c50be": {
@@ -910,7 +910,7 @@
     "first_seen": "2026-08-26",
     "last_seen": "2026-08-26",
     "snapshot": null,
-    "is_new": true
+    "is_new": false
   },
   "7f1ef63994aa7433": {
     "org": "NICE그룹",
@@ -932,6 +932,6 @@
     "first_seen": "2026-08-26",
     "last_seen": "2026-08-26",
     "snapshot": null,
-    "is_new": true
+    "is_new": false
   }
 }
