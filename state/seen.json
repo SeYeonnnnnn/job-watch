@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 10365",
+      "meta": "87 김도영 2026.08.14 사전공고 10492",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -576,7 +576,7 @@
     "first_seen": "2026-08-25",
     "last_seen": "2026-08-28",
     "snapshot": "89a3d11238f0",
-    "is_new": true
+    "is_new": false
   },
   "f09de7593ec0122f": {
     "org": "KB국민카드",
@@ -620,7 +620,7 @@
     "first_seen": "2026-08-25",
     "last_seen": "2026-08-28",
     "snapshot": "06f1d1e2d1cf",
-    "is_new": true
+    "is_new": false
   },
   "11a2ea8ac51c50be": {
     "org": "카카오뱅크",
@@ -1023,7 +1023,7 @@
     "first_seen": "2026-08-28",
     "last_seen": "2026-08-28",
     "snapshot": null,
-    "is_new": true
+    "is_new": false
   },
   "27ba20216f3d8db7": {
     "org": "NICE그룹",
@@ -1046,7 +1046,7 @@
     "first_seen": "2026-08-28",
     "last_seen": "2026-08-28",
     "snapshot": null,
-    "is_new": true
+    "is_new": false
   },
   "24eac4cdb577aef9": {
     "org": "NICE그룹",
@@ -1068,6 +1068,6 @@
     "first_seen": "2026-08-28",
     "last_seen": "2026-08-28",
     "snapshot": null,
-    "is_new": true
+    "is_new": false
   }
 }
