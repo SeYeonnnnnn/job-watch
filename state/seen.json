@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 9354",
+      "meta": "87 김도영 2026.08.14 사전공고 10096",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -22,7 +22,7 @@
     ],
     "reason": "신용보증기금 공채 공고 (신입직원, 신입직)",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-26",
+    "last_seen": "2026-08-28",
     "snapshot": null,
     "is_new": false
   },
@@ -35,7 +35,7 @@
     "posted": "20260316",
     "deadline": "",
     "extra": {
-      "meta": "81 김도영 2026.03.16 사전공고 15475",
+      "meta": "81 김도영 2026.03.16 사전공고 15490",
       "status": "사전공고",
       "post_id": "4383792"
     },
@@ -49,7 +49,7 @@
     ],
     "reason": "신용보증기금 공채 공고 (신입직원, 신입직)",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-26",
+    "last_seen": "2026-08-28",
     "snapshot": null,
     "is_new": false
   },
@@ -62,7 +62,7 @@
     "posted": "20251231",
     "deadline": "",
     "extra": {
-      "meta": "78 이동훈 2025.12.31 사전공고 13563",
+      "meta": "78 이동훈 2025.12.31 사전공고 13576",
       "status": "사전공고",
       "post_id": "4131207"
     },
@@ -76,7 +76,7 @@
     ],
     "reason": "신용보증기금 공채 공고 (신입직원, 신입직)",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-26",
+    "last_seen": "2026-08-28",
     "snapshot": null,
     "is_new": false
   },
@@ -449,7 +449,7 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "meta": "번호 제목 1 한국산업은행 2026년 2차 청년인턴 채용 2 3 한국산업은행 2026년 일반직B(특성화고) 신입행원 채용"
+      "meta": "번호 제목 1 2 한국산업은행 2026년 일반직B(특성화고) 신입행원 채용"
     },
     "id": "ba88cc10e67ebdde",
     "tier": 2,
@@ -460,7 +460,7 @@
     ],
     "reason": "KDB산업은행 공채 공고 (신입행원, 신입)",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-26",
+    "last_seen": "2026-08-28",
     "snapshot": null,
     "is_new": false
   },
@@ -473,7 +473,7 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "meta": "번호 제목 1 한국산업은행 2026년 2차 청년인턴 채용 2 한국산업은행 2026년 일반직B(보훈) 신입행원 채용 3"
+      "meta": "번호 제목 1 한국산업은행 2026년 일반직B(보훈) 신입행원 채용 2"
     },
     "id": "81927a6a0042a3c4",
     "tier": 2,
@@ -484,7 +484,7 @@
     ],
     "reason": "KDB산업은행 공채 공고 (신입행원, 신입)",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-26",
+    "last_seen": "2026-08-28",
     "snapshot": null,
     "is_new": false
   },
@@ -527,7 +527,7 @@
     "hits": [],
     "reason": "신용보증기금 공고 (직무 키워드 미검출 — 부문 개편 가능성)",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-26",
+    "last_seen": "2026-08-28",
     "snapshot": null,
     "is_new": false
   },
@@ -540,7 +540,7 @@
     "posted": "20260709",
     "deadline": "",
     "extra": {
-      "meta": "86 한수정 2026.07.09 진행중 517",
+      "meta": "86 한수정 2026.07.09 진행중 532",
       "status": "진행중",
       "post_id": "4922327"
     },
@@ -550,7 +550,7 @@
     "hits": [],
     "reason": "신용보증기금 공고 (직무 키워드 미검출 — 부문 개편 가능성)",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-26",
+    "last_seen": "2026-08-28",
     "snapshot": null,
     "is_new": false
   },
@@ -563,8 +563,8 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "da39a3ee5e6b",
-      "text_length": 0
+      "snapshot": "89a3d11238f0",
+      "text_length": 11009
     },
     "id": "dea1e0e44929601e",
     "tier": 2,
@@ -574,8 +574,8 @@
     ],
     "reason": "우리은행 공채 공채 공고 (공채)",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-26",
-    "snapshot": "da39a3ee5e6b",
+    "last_seen": "2026-08-28",
+    "snapshot": "89a3d11238f0",
     "is_new": true
   },
   "f09de7593ec0122f": {
@@ -596,7 +596,7 @@
     "hits": [],
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-26",
+    "last_seen": "2026-08-28",
     "snapshot": "fefabca89143",
     "is_new": false
   },
@@ -609,8 +609,8 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "2c51360753db",
-      "text_length": 7264
+      "snapshot": "bf4835d7c0fb",
+      "text_length": 7342
     },
     "id": "503c35809ab7119c",
     "tier": 2,
@@ -618,8 +618,8 @@
     "hits": [],
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-26",
-    "snapshot": "2c51360753db",
+    "last_seen": "2026-08-28",
+    "snapshot": "bf4835d7c0fb",
     "is_new": true
   },
   "11a2ea8ac51c50be": {
@@ -640,7 +640,7 @@
     "hits": [],
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-26",
+    "last_seen": "2026-08-28",
     "snapshot": "bd3013d84cf0",
     "is_new": false
   },
@@ -662,7 +662,7 @@
     "hits": [],
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-26",
+    "last_seen": "2026-08-28",
     "snapshot": "27bdc920d988",
     "is_new": false
   },
@@ -684,7 +684,7 @@
     "hits": [],
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-26",
+    "last_seen": "2026-08-28",
     "snapshot": "ce2de6c4c1ec",
     "is_new": false
   },
@@ -706,7 +706,7 @@
     "hits": [],
     "reason": "recruiter.co.kr 계열 — robots 확인 필요, 직접 확인 권장",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-26",
+    "last_seen": "2026-08-28",
     "snapshot": null,
     "is_new": false
   },
@@ -752,7 +752,7 @@
     "hits": [],
     "reason": "봇 차단 — 계열사 필터에서 삼성카드 확인",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-26",
+    "last_seen": "2026-08-28",
     "snapshot": null,
     "is_new": false
   },
@@ -774,7 +774,7 @@
     "hits": [],
     "reason": "공고 목록이 JS 렌더 — 페이지에서 직접 확인",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-26",
+    "last_seen": "2026-08-28",
     "snapshot": null,
     "is_new": false
   },
@@ -796,7 +796,7 @@
     "hits": [],
     "reason": "robots.txt 로 크롤링 금지 — 직접 확인 또는 자소설닷컴 알림 사용",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-26",
+    "last_seen": "2026-08-28",
     "snapshot": null,
     "is_new": false
   },
@@ -818,7 +818,7 @@
     "hits": [],
     "reason": "recruiter.co.kr 계열 — robots 확인 필요, 직접 확인 권장",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-26",
+    "last_seen": "2026-08-28",
     "snapshot": null,
     "is_new": false
   },
@@ -885,7 +885,7 @@
     "hits": [],
     "reason": "봇 차단(403) — 정기채용 일정은 직접 확인",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-26",
+    "last_seen": "2026-08-28",
     "snapshot": null,
     "is_new": false
   },
@@ -933,5 +933,73 @@
     "last_seen": "2026-08-26",
     "snapshot": null,
     "is_new": false
+  },
+  "3411706065351f92": {
+    "org": "NICE그룹",
+    "title": "[NICE인베스팅] 데이터 엔지니어(Back & Pipeline) 채용(경력) IT 데이터 엔지니어 경력 5년 이상 정규직 NICE인베스팅 2026. 08. 31, 14:59까지 D -3",
+    "url": "https://nice.career.greetinghr.com/ko/o/217680",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "3411706065351f92",
+    "tier": 3,
+    "score": 7,
+    "hits": [
+      "데이터",
+      "IT",
+      "정규직"
+    ],
+    "reason": "NICE그룹 · 희망직무 키워드 데이터",
+    "first_seen": "2026-08-28",
+    "last_seen": "2026-08-28",
+    "snapshot": null,
+    "is_new": true
+  },
+  "93ab03f5dae0f567": {
+    "org": "NICE그룹",
+    "title": "[NICE평가정보] 2026년 하반기 신입/경력 직원 수시채용 NICE평가정보 경영지원 외 기획/IR 외 경력 무관 외 정규직 NICE 2026. 09. 21, 14:59까지 D -24",
+    "url": "https://nice.career.greetinghr.com/ko/o/234543",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "93ab03f5dae0f567",
+    "tier": 2,
+    "score": 6,
+    "hits": [
+      "신입",
+      "정규직",
+      "수시채용"
+    ],
+    "reason": "NICE그룹 공채 공고 (신입)",
+    "first_seen": "2026-08-28",
+    "last_seen": "2026-08-28",
+    "snapshot": null,
+    "is_new": true
+  },
+  "e051c4ca9e631535": {
+    "org": "NICE그룹",
+    "title": "[NICE피앤아이] 2026년 3분기 공인회계사 공개채용 (수습회계사 지원 가능) NICE피앤아이 NICE피앤아이 평가 공인회계사 / 대체투자상품평가 경력 무관 정규직 NICE 2026. 08. 30, 14:59까지 D -2",
+    "url": "https://nice.career.greetinghr.com/ko/o/233072",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "e051c4ca9e631535",
+    "tier": 2,
+    "score": 5,
+    "hits": [
+      "공개채용",
+      "정규직"
+    ],
+    "reason": "NICE그룹 공채 공고 (공개채용)",
+    "first_seen": "2026-08-28",
+    "last_seen": "2026-08-28",
+    "snapshot": null,
+    "is_new": true
   }
 }
