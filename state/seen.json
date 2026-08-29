@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 10706",
+      "meta": "87 김도영 2026.08.14 사전공고 10765",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -35,7 +35,7 @@
     "posted": "20260316",
     "deadline": "",
     "extra": {
-      "meta": "81 김도영 2026.03.16 사전공고 15499",
+      "meta": "81 김도영 2026.03.16 사전공고 15500",
       "status": "사전공고",
       "post_id": "4383792"
     },
@@ -62,7 +62,7 @@
     "posted": "20251231",
     "deadline": "",
     "extra": {
-      "meta": "78 이동훈 2025.12.31 사전공고 13579",
+      "meta": "78 이동훈 2025.12.31 사전공고 13580",
       "status": "사전공고",
       "post_id": "4131207"
     },
@@ -609,8 +609,8 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "06f1d1e2d1cf",
-      "text_length": 7339
+      "snapshot": "be5f81042202",
+      "text_length": 7335
     },
     "id": "503c35809ab7119c",
     "tier": 2,
@@ -619,8 +619,8 @@
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
     "last_seen": "2026-08-29",
-    "snapshot": "06f1d1e2d1cf",
-    "is_new": false
+    "snapshot": "be5f81042202",
+    "is_new": true
   },
   "11a2ea8ac51c50be": {
     "org": "카카오뱅크",
@@ -1069,5 +1069,73 @@
     "last_seen": "2026-08-29",
     "snapshot": null,
     "is_new": false
+  },
+  "420d1c7875ebb416": {
+    "org": "NICE그룹",
+    "title": "[NICE인베스팅] 데이터 엔지니어(Back & Pipeline) 채용(경력) IT 데이터 엔지니어 경력 5년 이상 정규직 NICE인베스팅 2026. 08. 31, 14:59까지 D -1",
+    "url": "https://nice.career.greetinghr.com/ko/o/217680",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "420d1c7875ebb416",
+    "tier": 3,
+    "score": 7,
+    "hits": [
+      "데이터",
+      "IT",
+      "정규직"
+    ],
+    "reason": "NICE그룹 · 희망직무 키워드 데이터",
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "snapshot": null,
+    "is_new": true
+  },
+  "1cfce8a6a2b4446b": {
+    "org": "NICE그룹",
+    "title": "[NICE평가정보] 2026년 하반기 신입/경력 직원 수시채용 NICE평가정보 경영지원 외 기획/IR 외 경력 무관 외 정규직 NICE 2026. 09. 21, 14:59까지 D -22",
+    "url": "https://nice.career.greetinghr.com/ko/o/234543",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "1cfce8a6a2b4446b",
+    "tier": 2,
+    "score": 6,
+    "hits": [
+      "신입",
+      "정규직",
+      "수시채용"
+    ],
+    "reason": "NICE그룹 공채 공고 (신입)",
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "snapshot": null,
+    "is_new": true
+  },
+  "38c73e86c5a075a5": {
+    "org": "NICE그룹",
+    "title": "[NICE피앤아이] 2026년 3분기 공인회계사 공개채용 (수습회계사 지원 가능) NICE피앤아이 NICE피앤아이 평가 공인회계사 / 대체투자상품평가 경력 무관 정규직 NICE 2026. 08. 30, 14:59까지 D -day",
+    "url": "https://nice.career.greetinghr.com/ko/o/233072",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "38c73e86c5a075a5",
+    "tier": 2,
+    "score": 5,
+    "hits": [
+      "공개채용",
+      "정규직"
+    ],
+    "reason": "NICE그룹 공채 공고 (공개채용)",
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "snapshot": null,
+    "is_new": true
   }
 }
