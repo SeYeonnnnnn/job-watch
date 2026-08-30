@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 10918",
+      "meta": "87 김도영 2026.08.14 사전공고 11093",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -35,7 +35,7 @@
     "posted": "20260316",
     "deadline": "",
     "extra": {
-      "meta": "81 김도영 2026.03.16 사전공고 15504",
+      "meta": "81 김도영 2026.03.16 사전공고 15511",
       "status": "사전공고",
       "post_id": "4383792"
     },
@@ -62,7 +62,7 @@
     "posted": "20251231",
     "deadline": "",
     "extra": {
-      "meta": "78 이동훈 2025.12.31 사전공고 13582",
+      "meta": "78 이동훈 2025.12.31 사전공고 13583",
       "status": "사전공고",
       "post_id": "4131207"
     },
@@ -449,7 +449,7 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "meta": "번호 제목 1 2 한국산업은행 2026년 일반직B(특성화고) 신입행원 채용"
+      "meta": "번호 제목 1 한국산업은행 장애인 전문직원(사무관리) 채용 2 한국산업은행 2027년 5급 신입행원(변호사) 채용 3 한국산업은행 2027년 5급 신입행원(일반) 채용 4 5 한국산업은행 2026년 일반직B(특성화고) 신입행원 채용"
     },
     "id": "ba88cc10e67ebdde",
     "tier": 2,
@@ -473,7 +473,7 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "meta": "번호 제목 1 한국산업은행 2026년 일반직B(보훈) 신입행원 채용 2"
+      "meta": "번호 제목 1 한국산업은행 장애인 전문직원(사무관리) 채용 2 한국산업은행 2027년 5급 신입행원(변호사) 채용 3 한국산업은행 2027년 5급 신입행원(일반) 채용 4 한국산업은행 2026년 일반직B(보훈) 신입행원 채용 5"
     },
     "id": "81927a6a0042a3c4",
     "tier": 2,
@@ -540,7 +540,7 @@
     "posted": "20260709",
     "deadline": "",
     "extra": {
-      "meta": "86 한수정 2026.07.09 진행중 542",
+      "meta": "86 한수정 2026.07.09 진행중 543",
       "status": "진행중",
       "post_id": "4922327"
     },
@@ -609,8 +609,8 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "be5f81042202",
-      "text_length": 7335
+      "snapshot": "7ae13dedffa4",
+      "text_length": 7338
     },
     "id": "503c35809ab7119c",
     "tier": 2,
@@ -619,8 +619,8 @@
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
     "last_seen": "2026-08-30",
-    "snapshot": "be5f81042202",
-    "is_new": false
+    "snapshot": "7ae13dedffa4",
+    "is_new": true
   },
   "11a2ea8ac51c50be": {
     "org": "카카오뱅크",
@@ -1137,5 +1137,101 @@
     "last_seen": "2026-08-30",
     "snapshot": null,
     "is_new": false
+  },
+  "0961d24a993f45f8": {
+    "org": "NICE그룹",
+    "title": "[NICE인베스팅] 데이터 엔지니어(Back & Pipeline) 채용(경력) IT 데이터 엔지니어 경력 5년 이상 정규직 NICE인베스팅 2026. 08. 31, 14:59까지 D -day",
+    "url": "https://nice.career.greetinghr.com/ko/o/217680",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "0961d24a993f45f8",
+    "tier": 3,
+    "score": 7,
+    "hits": [
+      "데이터",
+      "IT",
+      "정규직"
+    ],
+    "reason": "NICE그룹 · 희망직무 키워드 데이터",
+    "first_seen": "2026-08-30",
+    "last_seen": "2026-08-30",
+    "snapshot": null,
+    "is_new": true
+  },
+  "5f8dbaf6ca392b77": {
+    "org": "KDB산업은행",
+    "title": "한국산업은행 2027년 5급 신입행원(변호사) 채용",
+    "url": "https://kdb.incruit.com/hire/viewhire.asp?projectid=127",
+    "source": "kdb_bank",
+    "group": "국책은행",
+    "posted": "",
+    "deadline": "",
+    "extra": {
+      "meta": "번호 제목 1 한국산업은행 장애인 전문직원(사무관리) 채용 2 3 한국산업은행 2027년 5급 신입행원(일반) 채용 4 한국산업은행 2026년 일반직B(보훈) 신입행원 채용 5 한국산업은행 2026년 일반직B(특성화고) 신입행원 채용"
+    },
+    "id": "5f8dbaf6ca392b77",
+    "tier": 2,
+    "score": 7,
+    "hits": [
+      "신입행원",
+      "신입",
+      "5급"
+    ],
+    "reason": "KDB산업은행 공채 공고 (신입행원, 신입)",
+    "first_seen": "2026-08-30",
+    "last_seen": "2026-08-30",
+    "snapshot": null,
+    "is_new": true
+  },
+  "603e739dd89fb0ec": {
+    "org": "KDB산업은행",
+    "title": "한국산업은행 2027년 5급 신입행원(일반) 채용",
+    "url": "https://kdb.incruit.com/hire/viewhire.asp?projectid=126",
+    "source": "kdb_bank",
+    "group": "국책은행",
+    "posted": "",
+    "deadline": "",
+    "extra": {
+      "meta": "번호 제목 1 한국산업은행 장애인 전문직원(사무관리) 채용 2 한국산업은행 2027년 5급 신입행원(변호사) 채용 3 4 한국산업은행 2026년 일반직B(보훈) 신입행원 채용 5 한국산업은행 2026년 일반직B(특성화고) 신입행원 채용"
+    },
+    "id": "603e739dd89fb0ec",
+    "tier": 2,
+    "score": 7,
+    "hits": [
+      "신입행원",
+      "신입",
+      "5급"
+    ],
+    "reason": "KDB산업은행 공채 공고 (신입행원, 신입)",
+    "first_seen": "2026-08-30",
+    "last_seen": "2026-08-30",
+    "snapshot": null,
+    "is_new": true
+  },
+  "863293e6741cf5aa": {
+    "org": "NICE그룹",
+    "title": "[NICE평가정보] 2026년 하반기 신입/경력 직원 수시채용 NICE평가정보 경영지원 외 기획/IR 외 경력 무관 외 정규직 NICE 2026. 09. 21, 14:59까지 D -21",
+    "url": "https://nice.career.greetinghr.com/ko/o/234543",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "863293e6741cf5aa",
+    "tier": 2,
+    "score": 6,
+    "hits": [
+      "신입",
+      "정규직",
+      "수시채용"
+    ],
+    "reason": "NICE그룹 공채 공고 (신입)",
+    "first_seen": "2026-08-30",
+    "last_seen": "2026-08-30",
+    "snapshot": null,
+    "is_new": true
   }
 }
