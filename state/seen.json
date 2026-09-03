@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 13992",
+      "meta": "87 김도영 2026.08.14 사전공고 14041",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -35,7 +35,7 @@
     "posted": "20260316",
     "deadline": "",
     "extra": {
-      "meta": "81 김도영 2026.03.16 사전공고 15570",
+      "meta": "81 김도영 2026.03.16 사전공고 15576",
       "status": "사전공고",
       "post_id": "4383792"
     },
@@ -506,7 +506,7 @@
     "hits": [],
     "reason": "기술보증기금 공고 (직무 키워드 미검출 — 부문 개편 가능성)",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "snapshot": "e3e2e9847552",
     "is_new": false
   },
@@ -574,7 +574,7 @@
     ],
     "reason": "우리은행 공채 공채 공고 (공채)",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "snapshot": "e36564af5602",
     "is_new": false
   },
@@ -609,7 +609,7 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "1844e14a1820",
+      "snapshot": "87f6ad859b61",
       "text_length": 8483
     },
     "id": "503c35809ab7119c",
@@ -619,7 +619,7 @@
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
     "last_seen": "2026-09-03",
-    "snapshot": "1844e14a1820",
+    "snapshot": "87f6ad859b61",
     "is_new": true
   },
   "11a2ea8ac51c50be": {
@@ -1507,7 +1507,7 @@
     "posted": "20260902",
     "deadline": "",
     "extra": {
-      "meta": "88 김도영 2026.09.02 진행중 2897",
+      "meta": "88 김도영 2026.09.02 진행중 3368",
       "status": "진행중",
       "post_id": "5137098"
     },
@@ -1523,7 +1523,7 @@
     "first_seen": "2026-09-03",
     "last_seen": "2026-09-03",
     "snapshot": null,
-    "is_new": true
+    "is_new": false
   },
   "85da3084cab523dc": {
     "org": "NICE그룹",
@@ -1535,6 +1535,93 @@
     "deadline": "",
     "extra": {},
     "id": "85da3084cab523dc",
+    "tier": 2,
+    "score": 5,
+    "hits": [
+      "신입",
+      "정규직"
+    ],
+    "reason": "NICE그룹 공채 공고 (신입)",
+    "first_seen": "2026-09-03",
+    "last_seen": "2026-09-03",
+    "snapshot": null,
+    "is_new": true
+  },
+  "6af1e620f53a6caa": {
+    "org": "NICE그룹",
+    "title": "[NICE디앤비] 기술가치평가 연구원 (변리사) NICE디앤비 NICE디앤비 평가 기술평가 연구원 경력 무관 계약직 NICE 2026. 09. 09, 14:59까지 D -5",
+    "url": "https://nice.career.greetinghr.com/ko/o/235044",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "6af1e620f53a6caa",
+    "tier": 3,
+    "score": 5,
+    "hits": [
+      "기술평가"
+    ],
+    "reason": "NICE그룹 · 희망직무 키워드 기술평가",
+    "first_seen": "2026-09-03",
+    "last_seen": "2026-09-03",
+    "snapshot": null,
+    "is_new": true
+  },
+  "ee814608b0cbc887": {
+    "org": "NICE그룹",
+    "title": "[NICE디앤비] 기술평가 연구원 NICE디앤비 NICE디앤비 평가 기술평가 연구원 경력 무관 계약직 NICE 2026. 09. 09, 14:59까지 D -5",
+    "url": "https://nice.career.greetinghr.com/ko/o/235025",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "ee814608b0cbc887",
+    "tier": 3,
+    "score": 5,
+    "hits": [
+      "기술평가"
+    ],
+    "reason": "NICE그룹 · 희망직무 키워드 기술평가",
+    "first_seen": "2026-09-03",
+    "last_seen": "2026-09-03",
+    "snapshot": null,
+    "is_new": true
+  },
+  "43d790567e45e690": {
+    "org": "NICE그룹",
+    "title": "[NICE평가정보] 2026년 하반기 신입/경력 직원 수시채용 NICE평가정보 경영지원 외 기획/IR 외 경력 무관 외 정규직 NICE 2026. 09. 21, 14:59까지 D -17",
+    "url": "https://nice.career.greetinghr.com/ko/o/234543",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "43d790567e45e690",
+    "tier": 2,
+    "score": 6,
+    "hits": [
+      "신입",
+      "정규직",
+      "수시채용"
+    ],
+    "reason": "NICE그룹 공채 공고 (신입)",
+    "first_seen": "2026-09-03",
+    "last_seen": "2026-09-03",
+    "snapshot": null,
+    "is_new": true
+  },
+  "66a2bf1b1363e623": {
+    "org": "NICE그룹",
+    "title": "[NICE디앤알] 웹 서비스 영업/마케팅(신입) NICE디앤알 신입 정규직 NICE 2026. 09. 23, 07:59까지 D -19",
+    "url": "https://nice.career.greetinghr.com/ko/o/235493",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "66a2bf1b1363e623",
     "tier": 2,
     "score": 5,
     "hits": [
