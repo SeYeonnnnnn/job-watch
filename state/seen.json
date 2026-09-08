@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 14420",
+      "meta": "87 김도영 2026.08.14 사전공고 14477",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -22,7 +22,7 @@
     ],
     "reason": "신용보증기금 공채 공고 (신입직원, 신입직)",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": null,
     "is_new": false
   },
@@ -35,7 +35,7 @@
     "posted": "20260316",
     "deadline": "",
     "extra": {
-      "meta": "81 김도영 2026.03.16 사전공고 15595",
+      "meta": "81 김도영 2026.03.16 사전공고 15598",
       "status": "사전공고",
       "post_id": "4383792"
     },
@@ -49,7 +49,7 @@
     ],
     "reason": "신용보증기금 공채 공고 (신입직원, 신입직)",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": null,
     "is_new": false
   },
@@ -460,7 +460,7 @@
     ],
     "reason": "KDB산업은행 공채 공고 (신입행원, 신입)",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": null,
     "is_new": false
   },
@@ -484,7 +484,7 @@
     ],
     "reason": "KDB산업은행 공채 공고 (신입행원, 신입)",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": null,
     "is_new": false
   },
@@ -527,7 +527,7 @@
     "hits": [],
     "reason": "신용보증기금 공고 (직무 키워드 미검출 — 부문 개편 가능성)",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": null,
     "is_new": false
   },
@@ -596,7 +596,7 @@
     "hits": [],
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": "fefabca89143",
     "is_new": false
   },
@@ -609,8 +609,8 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "353db73eaf8a",
-      "text_length": 8526
+      "snapshot": "84529917931c",
+      "text_length": 8595
     },
     "id": "503c35809ab7119c",
     "tier": 2,
@@ -618,8 +618,8 @@
     "hits": [],
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-07",
-    "snapshot": "353db73eaf8a",
+    "last_seen": "2026-09-08",
+    "snapshot": "84529917931c",
     "is_new": true
   },
   "11a2ea8ac51c50be": {
@@ -640,7 +640,7 @@
     "hits": [],
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": "bd3013d84cf0",
     "is_new": false
   },
@@ -662,7 +662,7 @@
     "hits": [],
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": "27bdc920d988",
     "is_new": false
   },
@@ -684,7 +684,7 @@
     "hits": [],
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": "ce2de6c4c1ec",
     "is_new": false
   },
@@ -706,7 +706,7 @@
     "hits": [],
     "reason": "recruiter.co.kr 계열 — robots 확인 필요, 직접 확인 권장",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": null,
     "is_new": false
   },
@@ -752,7 +752,7 @@
     "hits": [],
     "reason": "봇 차단 — 계열사 필터에서 삼성카드 확인",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": null,
     "is_new": false
   },
@@ -774,7 +774,7 @@
     "hits": [],
     "reason": "공고 목록이 JS 렌더 — 페이지에서 직접 확인",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": null,
     "is_new": false
   },
@@ -796,7 +796,7 @@
     "hits": [],
     "reason": "robots.txt 로 크롤링 금지 — 직접 확인 또는 자소설닷컴 알림 사용",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": null,
     "is_new": false
   },
@@ -818,7 +818,7 @@
     "hits": [],
     "reason": "recruiter.co.kr 계열 — robots 확인 필요, 직접 확인 권장",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": null,
     "is_new": false
   },
@@ -885,7 +885,7 @@
     "hits": [],
     "reason": "봇 차단(403) — 정기채용 일정은 직접 확인",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": null,
     "is_new": false
   },
@@ -1182,7 +1182,7 @@
     ],
     "reason": "KDB산업은행 공채 공고 (신입행원, 신입)",
     "first_seen": "2026-08-30",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": null,
     "is_new": false
   },
@@ -1207,7 +1207,7 @@
     ],
     "reason": "KDB산업은행 공채 공고 (신입행원, 신입)",
     "first_seen": "2026-08-30",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": null,
     "is_new": false
   },
@@ -1507,7 +1507,7 @@
     "posted": "20260902",
     "deadline": "",
     "extra": {
-      "meta": "88 김도영 2026.09.02 진행중 7123",
+      "meta": "88 김도영 2026.09.02 진행중 7861",
       "status": "진행중",
       "post_id": "5137098"
     },
@@ -1521,7 +1521,7 @@
     ],
     "reason": "신용보증기금 공채 공고 (신입직원, 신입직)",
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": null,
     "is_new": false
   },
@@ -1912,9 +1912,9 @@
     ],
     "reason": "NICE그룹 · 희망직무 키워드 기술평가",
     "first_seen": "2026-09-07",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": null,
-    "is_new": true
+    "is_new": false
   },
   "32f6ed002cfb046a": {
     "org": "NICE그룹",
@@ -1933,9 +1933,9 @@
     ],
     "reason": "NICE그룹 · 희망직무 키워드 기술평가",
     "first_seen": "2026-09-07",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": null,
-    "is_new": true
+    "is_new": false
   },
   "bb5fd894d2b82b04": {
     "org": "NICE그룹",
@@ -1956,9 +1956,9 @@
     ],
     "reason": "NICE그룹 공채 공고 (신입)",
     "first_seen": "2026-09-07",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
     "snapshot": null,
-    "is_new": true
+    "is_new": false
   },
   "ccdbfbfd5b1c415e": {
     "org": "NICE그룹",
@@ -1978,7 +1978,30 @@
     ],
     "reason": "NICE그룹 공채 공고 (신입)",
     "first_seen": "2026-09-07",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-08",
+    "snapshot": null,
+    "is_new": false
+  },
+  "dd14fab5cacfd21c": {
+    "org": "NICE그룹",
+    "title": "[NICE인베스팅] 데이터 엔지니어(Back & Pipeline) 채용(경력) IT 데이터 엔지니어 경력 5년 이상 정규직 NICE인베스팅",
+    "url": "https://nice.career.greetinghr.com/ko/o/217680",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "dd14fab5cacfd21c",
+    "tier": 3,
+    "score": 7,
+    "hits": [
+      "데이터",
+      "IT",
+      "정규직"
+    ],
+    "reason": "NICE그룹 · 희망직무 키워드 데이터",
+    "first_seen": "2026-09-08",
+    "last_seen": "2026-09-08",
     "snapshot": null,
     "is_new": true
   }
