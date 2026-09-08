@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 14477",
+      "meta": "87 김도영 2026.08.14 사전공고 14500",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -35,7 +35,7 @@
     "posted": "20260316",
     "deadline": "",
     "extra": {
-      "meta": "81 김도영 2026.03.16 사전공고 15598",
+      "meta": "81 김도영 2026.03.16 사전공고 15599",
       "status": "사전공고",
       "post_id": "4383792"
     },
@@ -563,8 +563,8 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "0b73fedfc07e",
-      "text_length": 10724
+      "snapshot": "90d4fd888aca",
+      "text_length": 10711
     },
     "id": "dea1e0e44929601e",
     "tier": 2,
@@ -574,9 +574,9 @@
     ],
     "reason": "우리은행 공채 공채 공고 (공채)",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-07",
-    "snapshot": "0b73fedfc07e",
-    "is_new": false
+    "last_seen": "2026-09-08",
+    "snapshot": "90d4fd888aca",
+    "is_new": true
   },
   "f09de7593ec0122f": {
     "org": "KB국민카드",
@@ -609,8 +609,8 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "84529917931c",
-      "text_length": 8595
+      "snapshot": "343d170b34e6",
+      "text_length": 8389
     },
     "id": "503c35809ab7119c",
     "tier": 2,
@@ -619,7 +619,7 @@
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
     "last_seen": "2026-09-08",
-    "snapshot": "84529917931c",
+    "snapshot": "343d170b34e6",
     "is_new": true
   },
   "11a2ea8ac51c50be": {
@@ -1507,7 +1507,7 @@
     "posted": "20260902",
     "deadline": "",
     "extra": {
-      "meta": "88 김도영 2026.09.02 진행중 7861",
+      "meta": "88 김도영 2026.09.02 진행중 8280",
       "status": "진행중",
       "post_id": "5137098"
     },
@@ -2000,6 +2000,93 @@
       "정규직"
     ],
     "reason": "NICE그룹 · 희망직무 키워드 데이터",
+    "first_seen": "2026-09-08",
+    "last_seen": "2026-09-08",
+    "snapshot": null,
+    "is_new": false
+  },
+  "a57429657b7f8355": {
+    "org": "NICE그룹",
+    "title": "[NICE디앤비] 기술가치평가 연구원 (변리사) NICE디앤비 NICE디앤비 평가 기술평가 연구원 경력 무관 계약직 NICE 2026. 09. 09, 14:59까지 D -day",
+    "url": "https://nice.career.greetinghr.com/ko/o/235044",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "a57429657b7f8355",
+    "tier": 3,
+    "score": 5,
+    "hits": [
+      "기술평가"
+    ],
+    "reason": "NICE그룹 · 희망직무 키워드 기술평가",
+    "first_seen": "2026-09-08",
+    "last_seen": "2026-09-08",
+    "snapshot": null,
+    "is_new": true
+  },
+  "3f9c23cfdc8d72a2": {
+    "org": "NICE그룹",
+    "title": "[NICE디앤비] 기술평가 연구원 NICE디앤비 NICE디앤비 평가 기술평가 연구원 경력 무관 계약직 NICE 2026. 09. 09, 14:59까지 D -day",
+    "url": "https://nice.career.greetinghr.com/ko/o/235025",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "3f9c23cfdc8d72a2",
+    "tier": 3,
+    "score": 5,
+    "hits": [
+      "기술평가"
+    ],
+    "reason": "NICE그룹 · 희망직무 키워드 기술평가",
+    "first_seen": "2026-09-08",
+    "last_seen": "2026-09-08",
+    "snapshot": null,
+    "is_new": true
+  },
+  "1559fee180a05af3": {
+    "org": "NICE그룹",
+    "title": "[NICE평가정보] 2026년 하반기 신입/경력 직원 수시채용 NICE평가정보 경영지원 외 기획/IR 외 경력 무관 외 정규직 NICE 2026. 09. 21, 14:59까지 D -12",
+    "url": "https://nice.career.greetinghr.com/ko/o/234543",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "1559fee180a05af3",
+    "tier": 2,
+    "score": 6,
+    "hits": [
+      "신입",
+      "정규직",
+      "수시채용"
+    ],
+    "reason": "NICE그룹 공채 공고 (신입)",
+    "first_seen": "2026-09-08",
+    "last_seen": "2026-09-08",
+    "snapshot": null,
+    "is_new": true
+  },
+  "92957aabf53da754": {
+    "org": "NICE그룹",
+    "title": "[NICE디앤알] 웹 서비스 영업/마케팅(신입) NICE디앤알 신입 정규직 NICE 2026. 09. 23, 07:59까지 D -14",
+    "url": "https://nice.career.greetinghr.com/ko/o/235493",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "92957aabf53da754",
+    "tier": 2,
+    "score": 5,
+    "hits": [
+      "신입",
+      "정규직"
+    ],
+    "reason": "NICE그룹 공채 공고 (신입)",
     "first_seen": "2026-09-08",
     "last_seen": "2026-09-08",
     "snapshot": null,
