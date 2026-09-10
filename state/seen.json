@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 14618",
+      "meta": "87 김도영 2026.08.14 사전공고 14648",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -35,7 +35,7 @@
     "posted": "20260316",
     "deadline": "",
     "extra": {
-      "meta": "81 김도영 2026.03.16 사전공고 15607",
+      "meta": "81 김도영 2026.03.16 사전공고 15608",
       "status": "사전공고",
       "post_id": "4383792"
     },
@@ -576,7 +576,7 @@
     "first_seen": "2026-08-25",
     "last_seen": "2026-09-10",
     "snapshot": "41047fb5b7dd",
-    "is_new": true
+    "is_new": false
   },
   "f09de7593ec0122f": {
     "org": "KB국민카드",
@@ -609,8 +609,8 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "07a3e31b354d",
-      "text_length": 8544
+      "snapshot": "9b1e74b1567a",
+      "text_length": 8478
     },
     "id": "503c35809ab7119c",
     "tier": 2,
@@ -619,7 +619,7 @@
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
     "last_seen": "2026-09-10",
-    "snapshot": "07a3e31b354d",
+    "snapshot": "9b1e74b1567a",
     "is_new": true
   },
   "11a2ea8ac51c50be": {
@@ -1507,7 +1507,7 @@
     "posted": "20260902",
     "deadline": "",
     "extra": {
-      "meta": "88 김도영 2026.09.02 진행중 9784",
+      "meta": "88 김도영 2026.09.02 진행중 10192",
       "status": "진행중",
       "post_id": "5137098"
     },
@@ -2241,7 +2241,7 @@
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-10",
     "snapshot": null,
-    "is_new": true
+    "is_new": false
   },
   "657e37677e6fdabc": {
     "org": "우리은행 수시·전문직",
@@ -2260,6 +2260,115 @@
       "AI"
     ],
     "reason": "우리은행 수시·전문직 · 희망직무 키워드 데이터, AI",
+    "first_seen": "2026-09-10",
+    "last_seen": "2026-09-10",
+    "snapshot": null,
+    "is_new": false
+  },
+  "4c972ee4406a1c6c": {
+    "org": "우리은행 수시·전문직",
+    "title": "우리은행 데이터 엔지니어 (AI데이터플랫폼부) 전문직 채용공고_복제 접수시간 2026.09.11 00:00 ~ 2026.09.26 00:00 자세히보기",
+    "url": "https://recruit.incruit.com/wooribank/job/2609100002",
+    "source": "woori_susi",
+    "group": "시중은행",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "4c972ee4406a1c6c",
+    "tier": 3,
+    "score": 8,
+    "hits": [
+      "데이터",
+      "AI"
+    ],
+    "reason": "우리은행 수시·전문직 · 희망직무 키워드 데이터, AI",
+    "first_seen": "2026-09-10",
+    "last_seen": "2026-09-10",
+    "snapshot": null,
+    "is_new": true
+  },
+  "afca131b0257c656": {
+    "org": "NICE그룹",
+    "title": "[NICE디앤비] 기술가치평가 연구원 (변리사) NICE디앤비 NICE디앤비 평가 기술평가 연구원 경력 무관 계약직 NICE 2026. 09. 13, 14:59까지 D -2",
+    "url": "https://nice.career.greetinghr.com/ko/o/235044",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "afca131b0257c656",
+    "tier": 3,
+    "score": 5,
+    "hits": [
+      "기술평가"
+    ],
+    "reason": "NICE그룹 · 희망직무 키워드 기술평가",
+    "first_seen": "2026-09-10",
+    "last_seen": "2026-09-10",
+    "snapshot": null,
+    "is_new": true
+  },
+  "3606c8e23c8db98a": {
+    "org": "NICE그룹",
+    "title": "[NICE디앤비] 기술평가 연구원 NICE디앤비 NICE디앤비 평가 기술평가 연구원 경력 무관 계약직 NICE 2026. 09. 13, 14:59까지 D -2",
+    "url": "https://nice.career.greetinghr.com/ko/o/235025",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "3606c8e23c8db98a",
+    "tier": 3,
+    "score": 5,
+    "hits": [
+      "기술평가"
+    ],
+    "reason": "NICE그룹 · 희망직무 키워드 기술평가",
+    "first_seen": "2026-09-10",
+    "last_seen": "2026-09-10",
+    "snapshot": null,
+    "is_new": true
+  },
+  "68148c49ec0d2e70": {
+    "org": "NICE그룹",
+    "title": "[NICE평가정보] 2026년 하반기 신입/경력 직원 수시채용 NICE평가정보 경영지원 외 기획/IR 외 경력 무관 외 정규직 NICE 2026. 09. 21, 14:59까지 D -10",
+    "url": "https://nice.career.greetinghr.com/ko/o/234543",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "68148c49ec0d2e70",
+    "tier": 2,
+    "score": 6,
+    "hits": [
+      "신입",
+      "정규직",
+      "수시채용"
+    ],
+    "reason": "NICE그룹 공채 공고 (신입)",
+    "first_seen": "2026-09-10",
+    "last_seen": "2026-09-10",
+    "snapshot": null,
+    "is_new": true
+  },
+  "bd53e893e5edc79e": {
+    "org": "NICE그룹",
+    "title": "[NICE디앤알] 웹 서비스 영업/마케팅(신입) NICE디앤알 신입 정규직 NICE 2026. 09. 23, 07:59까지 D -12",
+    "url": "https://nice.career.greetinghr.com/ko/o/235493",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "bd53e893e5edc79e",
+    "tier": 2,
+    "score": 5,
+    "hits": [
+      "신입",
+      "정규직"
+    ],
+    "reason": "NICE그룹 공채 공고 (신입)",
     "first_seen": "2026-09-10",
     "last_seen": "2026-09-10",
     "snapshot": null,
