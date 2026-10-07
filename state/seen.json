@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 15695",
+      "meta": "87 김도영 2026.08.14 사전공고 15703",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -609,8 +609,8 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "319fd82b0507",
-      "text_length": 7523
+      "snapshot": "2cd083952c10",
+      "text_length": 7394
     },
     "id": "503c35809ab7119c",
     "tier": 2,
@@ -619,8 +619,8 @@
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
     "last_seen": "2026-10-07",
-    "snapshot": "319fd82b0507",
-    "is_new": false
+    "snapshot": "2cd083952c10",
+    "is_new": true
   },
   "11a2ea8ac51c50be": {
     "org": "카카오뱅크",
@@ -1507,7 +1507,7 @@
     "posted": "20260902",
     "deadline": "",
     "extra": {
-      "meta": "88 김도영 2026.09.02 진행중 31095",
+      "meta": "88 김도영 2026.09.02 진행중 31317",
       "status": "진행중",
       "post_id": "5137098"
     },
