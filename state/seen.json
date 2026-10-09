@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 15722",
+      "meta": "87 김도영 2026.08.14 사전공고 15729",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -35,7 +35,7 @@
     "posted": "20260316",
     "deadline": "",
     "extra": {
-      "meta": "81 김도영 2026.03.16 사전공고 15704",
+      "meta": "81 김도영 2026.03.16 사전공고 15705",
       "status": "사전공고",
       "post_id": "4383792"
     },
@@ -574,7 +574,7 @@
     ],
     "reason": "우리은행 공채 공채 공고 (공채)",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-10-08",
+    "last_seen": "2026-10-09",
     "snapshot": "17edfe776a2e",
     "is_new": false
   },
@@ -609,8 +609,8 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "53322fae9a0b",
-      "text_length": 7344
+      "snapshot": "a7297f8bf108",
+      "text_length": 7207
     },
     "id": "503c35809ab7119c",
     "tier": 2,
@@ -619,8 +619,8 @@
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
     "last_seen": "2026-10-09",
-    "snapshot": "53322fae9a0b",
-    "is_new": false
+    "snapshot": "a7297f8bf108",
+    "is_new": true
   },
   "11a2ea8ac51c50be": {
     "org": "카카오뱅크",
@@ -1507,7 +1507,7 @@
     "posted": "20260902",
     "deadline": "",
     "extra": {
-      "meta": "88 김도영 2026.09.02 진행중 31850",
+      "meta": "88 김도영 2026.09.02 진행중 31984",
       "status": "진행중",
       "post_id": "5137098"
     },
