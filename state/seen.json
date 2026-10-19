@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 15839",
+      "meta": "87 김도영 2026.08.14 사전공고 15849",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -35,7 +35,7 @@
     "posted": "20260316",
     "deadline": "",
     "extra": {
-      "meta": "81 김도영 2026.03.16 사전공고 15733",
+      "meta": "81 김도영 2026.03.16 사전공고 15735",
       "status": "사전공고",
       "post_id": "4383792"
     },
@@ -609,8 +609,8 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "0a8ed77a42fb",
-      "text_length": 7446
+      "snapshot": "dcb5f9e1fd63",
+      "text_length": 7569
     },
     "id": "503c35809ab7119c",
     "tier": 2,
@@ -619,7 +619,7 @@
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
     "last_seen": "2026-10-19",
-    "snapshot": "0a8ed77a42fb",
+    "snapshot": "dcb5f9e1fd63",
     "is_new": true
   },
   "11a2ea8ac51c50be": {
@@ -1507,7 +1507,7 @@
     "posted": "20260902",
     "deadline": "",
     "extra": {
-      "meta": "88 김도영 2026.09.02 진행중 33841",
+      "meta": "88 김도영 2026.09.02 진행중 33927",
       "status": "진행중",
       "post_id": "5137098"
     },
@@ -3405,5 +3405,28 @@
     "last_seen": "2026-10-19",
     "snapshot": null,
     "is_new": false
+  },
+  "168b305dc6462d94": {
+    "org": "신용보증기금",
+    "title": "N 2026년도 신용보증기금(보훈 및 장애인 제한경쟁) 육아휴직자 대체 시간선택제 일자리 채용",
+    "url": "https://www.kodit.or.kr/kodit/na/ntt/selectNttInfo.do?mi=2518&bbsId=407&nttSn=5317849",
+    "source": "kodit",
+    "group": "보증기관",
+    "posted": "20261019",
+    "deadline": "",
+    "extra": {
+      "meta": "89 한수정 2026.10.19 진행중 104",
+      "status": "진행중",
+      "post_id": "5317849"
+    },
+    "id": "168b305dc6462d94",
+    "tier": 2,
+    "score": 5,
+    "hits": [],
+    "reason": "신용보증기금 공고 (직무 키워드 미검출 — 부문 개편 가능성)",
+    "first_seen": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "snapshot": null,
+    "is_new": true
   }
 }
