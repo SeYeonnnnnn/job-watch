@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 15874",
+      "meta": "87 김도영 2026.08.14 사전공고 15880",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -35,7 +35,7 @@
     "posted": "20260316",
     "deadline": "",
     "extra": {
-      "meta": "81 김도영 2026.03.16 사전공고 15740",
+      "meta": "81 김도영 2026.03.16 사전공고 15743",
       "status": "사전공고",
       "post_id": "4383792"
     },
@@ -609,8 +609,8 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "9e5c5df05896",
-      "text_length": 7432
+      "snapshot": "6da8f83a3c48",
+      "text_length": 7430
     },
     "id": "503c35809ab7119c",
     "tier": 2,
@@ -619,7 +619,7 @@
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
     "last_seen": "2026-10-23",
-    "snapshot": "9e5c5df05896",
+    "snapshot": "6da8f83a3c48",
     "is_new": true
   },
   "11a2ea8ac51c50be": {
@@ -1507,7 +1507,7 @@
     "posted": "20260902",
     "deadline": "",
     "extra": {
-      "meta": "88 김도영 2026.09.02 진행중 34222",
+      "meta": "88 김도영 2026.09.02 진행중 34288",
       "status": "진행중",
       "post_id": "5137098"
     },
@@ -3438,7 +3438,7 @@
     "posted": "20261019",
     "deadline": "",
     "extra": {
-      "meta": "89 한수정 2026.10.19 진행중 231",
+      "meta": "89 한수정 2026.10.19 진행중 245",
       "status": "진행중",
       "post_id": "5317849"
     },
@@ -3519,6 +3519,29 @@
       "정규직"
     ],
     "reason": "NICE그룹 · 희망직무 키워드 신용평가, 애널리스트",
+    "first_seen": "2026-10-23",
+    "last_seen": "2026-10-23",
+    "snapshot": null,
+    "is_new": false
+  },
+  "f20010488826ca50": {
+    "org": "NICE그룹",
+    "title": "[KIS정보통신] 데이터센터 시스템 관리 KIS정보통신 IT 데이터 시스템 관리 경력 무관 정규직 NICE데이터센터 2026. 11. 01, 14:59까지 D -9",
+    "url": "https://nice.career.greetinghr.com/ko/o/241654",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "f20010488826ca50",
+    "tier": 3,
+    "score": 7,
+    "hits": [
+      "데이터",
+      "IT",
+      "정규직"
+    ],
+    "reason": "NICE그룹 · 희망직무 키워드 데이터",
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-23",
     "snapshot": null,
