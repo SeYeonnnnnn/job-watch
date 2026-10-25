@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 15887",
+      "meta": "87 김도영 2026.08.14 사전공고 15889",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -620,7 +620,7 @@
     "first_seen": "2026-08-25",
     "last_seen": "2026-10-25",
     "snapshot": "73dcdcf33b6f",
-    "is_new": true
+    "is_new": false
   },
   "11a2ea8ac51c50be": {
     "org": "카카오뱅크",
@@ -1507,7 +1507,7 @@
     "posted": "20260902",
     "deadline": "",
     "extra": {
-      "meta": "88 김도영 2026.09.02 진행중 34345",
+      "meta": "88 김도영 2026.09.02 진행중 34385",
       "status": "진행중",
       "post_id": "5137098"
     },
@@ -3438,7 +3438,7 @@
     "posted": "20261019",
     "deadline": "",
     "extra": {
-      "meta": "89 한수정 2026.10.19 진행중 257",
+      "meta": "89 한수정 2026.10.19 진행중 268",
       "status": "진행중",
       "post_id": "5317849"
     },
@@ -3616,7 +3616,7 @@
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
     "snapshot": null,
-    "is_new": true
+    "is_new": false
   },
   "da438db16c7afca6": {
     "org": "NICE그룹",
@@ -3639,6 +3639,6 @@
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
     "snapshot": null,
-    "is_new": true
+    "is_new": false
   }
 }
