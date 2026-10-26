@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 15890",
+      "meta": "87 김도영 2026.08.14 사전공고 15904",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -35,7 +35,7 @@
     "posted": "20260316",
     "deadline": "",
     "extra": {
-      "meta": "81 김도영 2026.03.16 사전공고 15748",
+      "meta": "81 김도영 2026.03.16 사전공고 15750",
       "status": "사전공고",
       "post_id": "4383792"
     },
@@ -609,8 +609,8 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "cc8342a3889a",
-      "text_length": 7155
+      "snapshot": "b4d1a6cff7bb",
+      "text_length": 7292
     },
     "id": "503c35809ab7119c",
     "tier": 2,
@@ -619,7 +619,7 @@
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
     "last_seen": "2026-10-26",
-    "snapshot": "cc8342a3889a",
+    "snapshot": "b4d1a6cff7bb",
     "is_new": true
   },
   "11a2ea8ac51c50be": {
@@ -1507,7 +1507,7 @@
     "posted": "20260902",
     "deadline": "",
     "extra": {
-      "meta": "88 김도영 2026.09.02 진행중 34404",
+      "meta": "88 김도영 2026.09.02 진행중 34490",
       "status": "진행중",
       "post_id": "5137098"
     },
@@ -3438,7 +3438,7 @@
     "posted": "20261019",
     "deadline": "",
     "extra": {
-      "meta": "89 한수정 2026.10.19 진행중 277",
+      "meta": "89 한수정 2026.10.19 진행중 316",
       "status": "진행중",
       "post_id": "5317849"
     },
@@ -3688,7 +3688,7 @@
     "first_seen": "2026-10-26",
     "last_seen": "2026-10-26",
     "snapshot": null,
-    "is_new": true
+    "is_new": false
   },
   "656c0b6daa237039": {
     "org": "우리은행 수시·전문직",
@@ -3710,7 +3710,7 @@
     "first_seen": "2026-10-26",
     "last_seen": "2026-10-26",
     "snapshot": null,
-    "is_new": true
+    "is_new": false
   },
   "16cef271e25d3cac": {
     "org": "우리은행 수시·전문직",
@@ -3732,7 +3732,7 @@
     "first_seen": "2026-10-26",
     "last_seen": "2026-10-26",
     "snapshot": null,
-    "is_new": true
+    "is_new": false
   },
   "15d83d3d10300ebf": {
     "org": "NICE그룹",
@@ -3744,6 +3744,75 @@
     "deadline": "",
     "extra": {},
     "id": "15d83d3d10300ebf",
+    "tier": 3,
+    "score": 7,
+    "hits": [
+      "데이터",
+      "IT",
+      "정규직"
+    ],
+    "reason": "NICE그룹 · 희망직무 키워드 데이터",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "snapshot": null,
+    "is_new": true
+  },
+  "cd617dd63a514f40": {
+    "org": "NICE그룹",
+    "title": "[NICE신용평가] 신용평가 애널리스트 NICE신용평가 평가 신입 정규직 NICE 2026. 11. 09, 14:59까지 D -13",
+    "url": "https://nice.career.greetinghr.com/ko/o/240402",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "cd617dd63a514f40",
+    "tier": 3,
+    "score": 11,
+    "hits": [
+      "신용평가",
+      "애널리스트",
+      "신입",
+      "정규직"
+    ],
+    "reason": "NICE그룹 · 희망직무 키워드 신용평가, 애널리스트",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "snapshot": null,
+    "is_new": true
+  },
+  "7fc073bed7941963": {
+    "org": "우리은행 수시·전문직",
+    "title": "우리은행 AI서비스기획_AI사업개발 (AI데이터사업부) 전문직 채용공고 접수시간 2026.10.26 00:00 ~ 2026.11.09 00:00 자세히보기",
+    "url": "https://recruit.incruit.com/wooribank/job/2610260015",
+    "source": "woori_susi",
+    "group": "시중은행",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "7fc073bed7941963",
+    "tier": 3,
+    "score": 8,
+    "hits": [
+      "데이터",
+      "AI"
+    ],
+    "reason": "우리은행 수시·전문직 · 희망직무 키워드 데이터, AI",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "snapshot": null,
+    "is_new": true
+  },
+  "9ff4f6a322953fc2": {
+    "org": "NICE그룹",
+    "title": "[KIS정보통신] 데이터센터 시스템 관리 KIS정보통신 IT 데이터 시스템 관리 경력 무관 정규직 NICE데이터센터 2026. 11. 01, 14:59까지 D -5",
+    "url": "https://nice.career.greetinghr.com/ko/o/241654",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "9ff4f6a322953fc2",
     "tier": 3,
     "score": 7,
     "hits": [
