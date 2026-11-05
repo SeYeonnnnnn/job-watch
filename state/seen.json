@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 16024",
+      "meta": "87 김도영 2026.08.14 사전공고 16031",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -35,7 +35,7 @@
     "posted": "20260316",
     "deadline": "",
     "extra": {
-      "meta": "81 김도영 2026.03.16 사전공고 15791",
+      "meta": "81 김도영 2026.03.16 사전공고 15796",
       "status": "사전공고",
       "post_id": "4383792"
     },
@@ -609,8 +609,8 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "87a98a15a5a6",
-      "text_length": 7406
+      "snapshot": "aeb9ca75b22f",
+      "text_length": 7408
     },
     "id": "503c35809ab7119c",
     "tier": 2,
@@ -619,7 +619,7 @@
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
     "last_seen": "2026-11-05",
-    "snapshot": "87a98a15a5a6",
+    "snapshot": "aeb9ca75b22f",
     "is_new": true
   },
   "11a2ea8ac51c50be": {
@@ -1507,7 +1507,7 @@
     "posted": "20260902",
     "deadline": "",
     "extra": {
-      "meta": "88 김도영 2026.09.02 진행중 36090",
+      "meta": "88 김도영 2026.09.02 진행중 36198",
       "status": "진행중",
       "post_id": "5137098"
     },
@@ -2841,7 +2841,7 @@
     ],
     "reason": "우리금융그룹 · 희망직무 키워드 데이터, AI",
     "first_seen": "2026-09-15",
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "snapshot": null,
     "is_new": false
   },
@@ -3438,7 +3438,7 @@
     "posted": "20261019",
     "deadline": "",
     "extra": {
-      "meta": "89 한수정 2026.10.19 진행중 797",
+      "meta": "89 한수정 2026.10.19 진행중 801",
       "status": "진행중",
       "post_id": "5317849"
     },
@@ -3686,7 +3686,7 @@
     ],
     "reason": "우리금융그룹 · 희망직무 키워드 데이터, AI",
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "snapshot": null,
     "is_new": false
   },
@@ -3847,7 +3847,7 @@
     ],
     "reason": "우리금융그룹 · 희망직무 키워드 데이터, AI",
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "snapshot": null,
     "is_new": false
   },
@@ -4457,5 +4457,75 @@
     "last_seen": "2026-11-05",
     "snapshot": null,
     "is_new": false
+  },
+  "a3a9b88b482fbf82": {
+    "org": "NICE그룹",
+    "title": "[NICE신용평가] 신용평가 애널리스트 NICE신용평가 평가 신입 정규직 NICE 2026. 11. 09, 14:59까지 D -3",
+    "url": "https://nice.career.greetinghr.com/ko/o/240402",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "a3a9b88b482fbf82",
+    "tier": 3,
+    "score": 11,
+    "hits": [
+      "신용평가",
+      "애널리스트",
+      "신입",
+      "정규직"
+    ],
+    "reason": "NICE그룹 · 희망직무 키워드 신용평가, 애널리스트",
+    "first_seen": "2026-11-05",
+    "last_seen": "2026-11-05",
+    "snapshot": null,
+    "is_new": true
+  },
+  "9b7ef2a0147935e6": {
+    "org": "NICE그룹",
+    "title": "[NICE디앤알] 시스템(서버) 관리자(경력) NICE디앤알 IT 데이터 시스템 관리 경력 1년 이상 정규직 NICE 2026. 11. 13, 07:59까지 D -7",
+    "url": "https://nice.career.greetinghr.com/ko/o/242809",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "9b7ef2a0147935e6",
+    "tier": 3,
+    "score": 7,
+    "hits": [
+      "데이터",
+      "IT",
+      "정규직"
+    ],
+    "reason": "NICE그룹 · 희망직무 키워드 데이터",
+    "first_seen": "2026-11-05",
+    "last_seen": "2026-11-05",
+    "snapshot": null,
+    "is_new": true
+  },
+  "3e362dd2008be8e2": {
+    "org": "NICE그룹",
+    "title": "[NICE디앤알] 웹 서비스(Back-end, Front-end) 개발 및 운영(신입/경력) NICE디앤알 IT IT서비스운영(공용서비스 개발 및 운영) 정규직 NICE 2026. 11. 17, 07:59까지 D -11",
+    "url": "https://nice.career.greetinghr.com/ko/o/242264",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "3e362dd2008be8e2",
+    "tier": 2,
+    "score": 6,
+    "hits": [
+      "신입",
+      "IT",
+      "정규직"
+    ],
+    "reason": "NICE그룹 공채 공고 (신입)",
+    "first_seen": "2026-11-05",
+    "last_seen": "2026-11-05",
+    "snapshot": null,
+    "is_new": true
   }
 }
