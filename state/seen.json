@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 16083",
+      "meta": "87 김도영 2026.08.14 사전공고 16097",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -35,7 +35,7 @@
     "posted": "20260316",
     "deadline": "",
     "extra": {
-      "meta": "81 김도영 2026.03.16 사전공고 15828",
+      "meta": "81 김도영 2026.03.16 사전공고 15829",
       "status": "사전공고",
       "post_id": "4383792"
     },
@@ -609,8 +609,8 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "7cd4c1b39316",
-      "text_length": 7212
+      "snapshot": "e70f7876845d",
+      "text_length": 7363
     },
     "id": "503c35809ab7119c",
     "tier": 2,
@@ -619,7 +619,7 @@
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
     "last_seen": "2026-11-12",
-    "snapshot": "7cd4c1b39316",
+    "snapshot": "e70f7876845d",
     "is_new": true
   },
   "11a2ea8ac51c50be": {
@@ -1507,7 +1507,7 @@
     "posted": "20260902",
     "deadline": "",
     "extra": {
-      "meta": "88 김도영 2026.09.02 진행중 37067",
+      "meta": "88 김도영 2026.09.02 진행중 37201",
       "status": "진행중",
       "post_id": "5137098"
     },
@@ -3438,7 +3438,7 @@
     "posted": "20261019",
     "deadline": "",
     "extra": {
-      "meta": "89 한수정 2026.10.19 진행중 1072",
+      "meta": "89 한수정 2026.10.19 진행중 1098",
       "status": "진행중",
       "post_id": "5317849"
     },
@@ -5229,5 +5229,94 @@
     "last_seen": "2026-11-12",
     "snapshot": null,
     "is_new": false
+  },
+  "80f1a618cc061153": {
+    "org": "NICE그룹",
+    "title": "[NICE디앤알] 시스템(서버) 관리자(경력) NICE디앤알 IT 데이터 시스템 관리 경력 1년 이상 정규직 NICE 2026. 11. 13, 07:59까지 D -day",
+    "url": "https://nice.career.greetinghr.com/ko/o/242809",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "80f1a618cc061153",
+    "tier": 3,
+    "score": 7,
+    "hits": [
+      "데이터",
+      "IT",
+      "정규직"
+    ],
+    "reason": "NICE그룹 · 희망직무 키워드 데이터",
+    "first_seen": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "snapshot": null,
+    "is_new": true
+  },
+  "215a52f8f12fd8e3": {
+    "org": "NICE그룹",
+    "title": "[NICE디앤비] 기술평가 연구원 NICE디앤비 NICE디앤비 평가 기술평가 연구원 경력 무관 계약직 NICE 2026. 11. 15, 14:59까지 D -2",
+    "url": "https://nice.career.greetinghr.com/ko/o/242870",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "215a52f8f12fd8e3",
+    "tier": 3,
+    "score": 5,
+    "hits": [
+      "기술평가"
+    ],
+    "reason": "NICE그룹 · 희망직무 키워드 기술평가",
+    "first_seen": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "snapshot": null,
+    "is_new": true
+  },
+  "9cb612f590a3e7a4": {
+    "org": "NICE그룹",
+    "title": "[NICE디앤알] 웹 서비스(Back-end, Front-end) 개발 및 운영(신입/경력) NICE디앤알 IT IT서비스운영(공용서비스 개발 및 운영) 정규직 NICE 2026. 11. 17, 07:59까지 D -4",
+    "url": "https://nice.career.greetinghr.com/ko/o/242264",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "9cb612f590a3e7a4",
+    "tier": 2,
+    "score": 6,
+    "hits": [
+      "신입",
+      "IT",
+      "정규직"
+    ],
+    "reason": "NICE그룹 공채 공고 (신입)",
+    "first_seen": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "snapshot": null,
+    "is_new": true
+  },
+  "c58c3d510294f20f": {
+    "org": "NICE그룹",
+    "title": "[NICE디앤알] 웹 서비스 영업/마케팅(신입) NICE디앤알 사업ㆍ기획 신입 정규직 NICE 2026. 11. 25, 07:59까지 D -12",
+    "url": "https://nice.career.greetinghr.com/ko/o/243646",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "c58c3d510294f20f",
+    "tier": 2,
+    "score": 5,
+    "hits": [
+      "신입",
+      "정규직"
+    ],
+    "reason": "NICE그룹 공채 공고 (신입)",
+    "first_seen": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "snapshot": null,
+    "is_new": true
   }
 }
