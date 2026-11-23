@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 16211",
+      "meta": "87 김도영 2026.08.14 사전공고 16215",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -35,7 +35,7 @@
     "posted": "20260316",
     "deadline": "",
     "extra": {
-      "meta": "81 김도영 2026.03.16 사전공고 15876",
+      "meta": "81 김도영 2026.03.16 사전공고 15879",
       "status": "사전공고",
       "post_id": "4383792"
     },
@@ -609,8 +609,8 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "b7685e31c82f",
-      "text_length": 7511
+      "snapshot": "13e3cf571c04",
+      "text_length": 7567
     },
     "id": "503c35809ab7119c",
     "tier": 2,
@@ -619,8 +619,8 @@
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
     "last_seen": "2026-11-23",
-    "snapshot": "b7685e31c82f",
-    "is_new": false
+    "snapshot": "13e3cf571c04",
+    "is_new": true
   },
   "11a2ea8ac51c50be": {
     "org": "카카오뱅크",
@@ -1507,7 +1507,7 @@
     "posted": "20260902",
     "deadline": "",
     "extra": {
-      "meta": "88 김도영 2026.09.02 진행중 38361",
+      "meta": "88 김도영 2026.09.02 진행중 38458",
       "status": "진행중",
       "post_id": "5137098"
     },
@@ -3438,7 +3438,7 @@
     "posted": "20261019",
     "deadline": "",
     "extra": {
-      "meta": "89 한수정 2026.10.19 진행중 1284",
+      "meta": "89 한수정 2026.10.19 진행중 1296",
       "status": "진행중",
       "post_id": "5317849"
     },
@@ -5685,7 +5685,7 @@
     "posted": "20261120",
     "deadline": "",
     "extra": {
-      "meta": "90 이충훈 2026.11.20 진행중 60",
+      "meta": "90 이충훈 2026.11.20 진행중 71",
       "status": "진행중",
       "post_id": "5448756"
     },
@@ -5742,5 +5742,27 @@
     "last_seen": "2026-11-23",
     "snapshot": null,
     "is_new": false
+  },
+  "f02603b48a23d579": {
+    "org": "NICE그룹",
+    "title": "[NICE디앤알] 웹 서비스 영업/마케팅(신입) NICE디앤알 사업ㆍ기획 신입 정규직 NICE 2026. 11. 25, 07:59까지 D -1",
+    "url": "https://nice.career.greetinghr.com/ko/o/243646",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "f02603b48a23d579",
+    "tier": 2,
+    "score": 5,
+    "hits": [
+      "신입",
+      "정규직"
+    ],
+    "reason": "NICE그룹 공채 공고 (신입)",
+    "first_seen": "2026-11-23",
+    "last_seen": "2026-11-23",
+    "snapshot": null,
+    "is_new": true
   }
 }
