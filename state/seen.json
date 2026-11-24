@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 16215",
+      "meta": "87 김도영 2026.08.14 사전공고 16224",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -22,7 +22,7 @@
     ],
     "reason": "신용보증기금 공채 공고 (신입직원, 신입직)",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-11-23",
+    "last_seen": "2026-11-24",
     "snapshot": null,
     "is_new": false
   },
@@ -35,7 +35,7 @@
     "posted": "20260316",
     "deadline": "",
     "extra": {
-      "meta": "81 김도영 2026.03.16 사전공고 15879",
+      "meta": "81 김도영 2026.03.16 사전공고 15885",
       "status": "사전공고",
       "post_id": "4383792"
     },
@@ -49,7 +49,7 @@
     ],
     "reason": "신용보증기금 공채 공고 (신입직원, 신입직)",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-11-23",
+    "last_seen": "2026-11-24",
     "snapshot": null,
     "is_new": false
   },
@@ -527,7 +527,7 @@
     "hits": [],
     "reason": "신용보증기금 공고 (직무 키워드 미검출 — 부문 개편 가능성)",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-11-23",
+    "last_seen": "2026-11-24",
     "snapshot": null,
     "is_new": false
   },
@@ -609,8 +609,8 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "eeda32098c48",
-      "text_length": 7790
+      "snapshot": "67aeee8e976b",
+      "text_length": 7394
     },
     "id": "503c35809ab7119c",
     "tier": 2,
@@ -619,7 +619,7 @@
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
     "last_seen": "2026-11-24",
-    "snapshot": "eeda32098c48",
+    "snapshot": "67aeee8e976b",
     "is_new": true
   },
   "11a2ea8ac51c50be": {
@@ -1507,7 +1507,7 @@
     "posted": "20260902",
     "deadline": "",
     "extra": {
-      "meta": "88 김도영 2026.09.02 진행중 38458",
+      "meta": "88 김도영 2026.09.02 진행중 38607",
       "status": "진행중",
       "post_id": "5137098"
     },
@@ -1521,7 +1521,7 @@
     ],
     "reason": "신용보증기금 공채 공고 (신입직원, 신입직)",
     "first_seen": "2026-09-03",
-    "last_seen": "2026-11-23",
+    "last_seen": "2026-11-24",
     "snapshot": null,
     "is_new": false
   },
@@ -3438,7 +3438,7 @@
     "posted": "20261019",
     "deadline": "",
     "extra": {
-      "meta": "89 한수정 2026.10.19 진행중 1296",
+      "meta": "89 한수정 2026.10.19 진행중 1321",
       "status": "진행중",
       "post_id": "5317849"
     },
@@ -3448,7 +3448,7 @@
     "hits": [],
     "reason": "신용보증기금 공고 (직무 키워드 미검출 — 부문 개편 가능성)",
     "first_seen": "2026-10-20",
-    "last_seen": "2026-11-23",
+    "last_seen": "2026-11-24",
     "snapshot": null,
     "is_new": false
   },
@@ -5685,7 +5685,7 @@
     "posted": "20261120",
     "deadline": "",
     "extra": {
-      "meta": "90 이충훈 2026.11.20 진행중 71",
+      "meta": "90 이충훈 2026.11.20 진행중 90",
       "status": "진행중",
       "post_id": "5448756"
     },
@@ -5695,7 +5695,7 @@
     "hits": [],
     "reason": "신용보증기금 공고 (직무 키워드 미검출 — 부문 개편 가능성)",
     "first_seen": "2026-11-21",
-    "last_seen": "2026-11-23",
+    "last_seen": "2026-11-24",
     "snapshot": null,
     "is_new": false
   },
@@ -5782,6 +5782,50 @@
       "정규직"
     ],
     "reason": "NICE그룹 · 희망직무 키워드 데이터",
+    "first_seen": "2026-11-24",
+    "last_seen": "2026-11-24",
+    "snapshot": null,
+    "is_new": true
+  },
+  "d2c86da5d6f75058": {
+    "org": "NICE그룹",
+    "title": "[NICE인베스팅] 2027년 신규 인력 채용(경력) NICE인베스팅 사업ㆍ기획 데이터서비스운영(금융데이터 분석 및 서비스운영) 외 경력 5년 이상 외 정규직 NICE인베스팅 2027. 03. 31, 14:59까지 D -126",
+    "url": "https://nice.career.greetinghr.com/ko/o/244989",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "d2c86da5d6f75058",
+    "tier": 3,
+    "score": 6,
+    "hits": [
+      "데이터",
+      "정규직"
+    ],
+    "reason": "NICE그룹 · 희망직무 키워드 데이터",
+    "first_seen": "2026-11-24",
+    "last_seen": "2026-11-24",
+    "snapshot": null,
+    "is_new": true
+  },
+  "2f8e929d1eb58558": {
+    "org": "NICE그룹",
+    "title": "[NICE디앤알] 웹 서비스 영업/마케팅(신입) NICE디앤알 사업ㆍ기획 신입 정규직 NICE 2026. 11. 25, 07:59까지 D -day",
+    "url": "https://nice.career.greetinghr.com/ko/o/243646",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "2f8e929d1eb58558",
+    "tier": 2,
+    "score": 5,
+    "hits": [
+      "신입",
+      "정규직"
+    ],
+    "reason": "NICE그룹 공채 공고 (신입)",
     "first_seen": "2026-11-24",
     "last_seen": "2026-11-24",
     "snapshot": null,
