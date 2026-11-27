@@ -8,7 +8,7 @@
     "posted": "20260814",
     "deadline": "",
     "extra": {
-      "meta": "87 김도영 2026.08.14 사전공고 16255",
+      "meta": "87 김도영 2026.08.14 사전공고 16269",
       "status": "사전공고",
       "post_id": "5054726"
     },
@@ -35,7 +35,7 @@
     "posted": "20260316",
     "deadline": "",
     "extra": {
-      "meta": "81 김도영 2026.03.16 사전공고 15889",
+      "meta": "81 김도영 2026.03.16 사전공고 15891",
       "status": "사전공고",
       "post_id": "4383792"
     },
@@ -609,8 +609,8 @@
     "posted": "",
     "deadline": "",
     "extra": {
-      "snapshot": "c75156dc3eb6",
-      "text_length": 7322
+      "snapshot": "8bd8d53b11c4",
+      "text_length": 7118
     },
     "id": "503c35809ab7119c",
     "tier": 2,
@@ -619,7 +619,7 @@
     "reason": "감시 페이지 내용이 바뀜",
     "first_seen": "2026-08-25",
     "last_seen": "2026-11-27",
-    "snapshot": "c75156dc3eb6",
+    "snapshot": "8bd8d53b11c4",
     "is_new": true
   },
   "11a2ea8ac51c50be": {
@@ -1507,7 +1507,7 @@
     "posted": "20260902",
     "deadline": "",
     "extra": {
-      "meta": "88 김도영 2026.09.02 진행중 38883",
+      "meta": "88 김도영 2026.09.02 진행중 38944",
       "status": "진행중",
       "post_id": "5137098"
     },
@@ -3438,7 +3438,7 @@
     "posted": "20261019",
     "deadline": "",
     "extra": {
-      "meta": "89 한수정 2026.10.19 진행중 1457",
+      "meta": "89 한수정 2026.10.19 진행중 1473",
       "status": "진행중",
       "post_id": "5317849"
     },
@@ -5685,7 +5685,7 @@
     "posted": "20261120",
     "deadline": "",
     "extra": {
-      "meta": "90 이충훈 2026.11.20 진행중 191",
+      "meta": "90 이충훈 2026.11.20 진행중 205",
       "status": "진행중",
       "post_id": "5448756"
     },
@@ -5940,5 +5940,49 @@
     "last_seen": "2026-11-27",
     "snapshot": null,
     "is_new": false
+  },
+  "1bd48c2c90c8fc6d": {
+    "org": "NICE그룹",
+    "title": "[NICE디앤비] 기업평가 심사역 (경력 2년 이상) NICE디앤비 NICE디앤비 평가 기업평가 심사역 경력 2년 이상 정규직 NICE 2026. 12. 08, 14:59까지 D -10",
+    "url": "https://nice.career.greetinghr.com/ko/o/246077",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "1bd48c2c90c8fc6d",
+    "tier": 3,
+    "score": 6,
+    "hits": [
+      "심사",
+      "정규직"
+    ],
+    "reason": "NICE그룹 · 희망직무 키워드 심사",
+    "first_seen": "2026-11-27",
+    "last_seen": "2026-11-27",
+    "snapshot": null,
+    "is_new": true
+  },
+  "8082fe32f311e30a": {
+    "org": "NICE그룹",
+    "title": "[NICE인베스팅] 2027년 신규 인력 채용(경력) NICE인베스팅 사업ㆍ기획 데이터서비스운영(금융데이터 분석 및 서비스운영) 외 경력 5년 이상 외 정규직 NICE인베스팅 2027. 03. 31, 14:59까지 D -123",
+    "url": "https://nice.career.greetinghr.com/ko/o/244989",
+    "source": "nice_group",
+    "group": "신용평가사",
+    "posted": "",
+    "deadline": "",
+    "extra": {},
+    "id": "8082fe32f311e30a",
+    "tier": 3,
+    "score": 6,
+    "hits": [
+      "데이터",
+      "정규직"
+    ],
+    "reason": "NICE그룹 · 희망직무 키워드 데이터",
+    "first_seen": "2026-11-27",
+    "last_seen": "2026-11-27",
+    "snapshot": null,
+    "is_new": true
   }
 }
